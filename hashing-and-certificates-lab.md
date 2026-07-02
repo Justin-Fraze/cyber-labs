@@ -13,14 +13,14 @@ For this step, I created a file named `top_secret.txt` containing the text: `Tra
 I ran a command to calculate its **SHA-256 hash** (digital fingerprint). 
 
 ### Original File Hash:
-[INSERT SCREENSHOT OF YOUR TERMINAL HASH HERE]
-*Hash string:* 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824 (example)
+<img width="1165" height="136" alt="Screenshot 2026-07-02 065539" src="https://github.com/user-attachments/assets/a784aad2-3cc5-4dc5-b3e3-0e0541f0da31" />
+*Hash string:* 0C1D83B606657572FD66123D22FFAD0D0C914E9056ECEFA9B63D780B4A2A1671
 
 Next, I changed the file text to `Transfer $1001 to Alice` (just changing a 0 to a 1) and ran the hash command again.
 
 ### Modified File Hash:
-[INSERT SCREENSHOT OF YOUR NEW HASH HERE]
-*New hash string:* a486510d... (example)
+<img width="1165" height="135" alt="image" src="https://github.com/user-attachments/assets/22c3891a-619a-45ae-8db6-82c70c6d374d" />
+*New hash string:* BEEB0D654B620CAB561A26E2DFF956A6FC296B6EF0EBD0FAC715C94566F0C13E
 
 ### My Takeaway:
 Even though I only changed a single number, the resulting hash was completely different. This is called the **Avalanche Effect**. In the real world, this is how security analysts know if a piece of software has been altered by a hacker or infected with malware.
